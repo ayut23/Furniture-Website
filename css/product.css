@@ -1,0 +1,113 @@
+.web-body{
+	width:100%;
+	height:auto;
+}
+.office-bodycont{
+	width:25%;
+	height:auto;
+	background-color:#ccc;
+	float:left;
+}
+.office-bodycontmid{
+	width:30%;
+	height:auto;
+	background-color:#ccc;
+	float:left;
+}
+.office-bodyside{
+	width:10%;
+	height:350px;
+	background-color:#ccc;
+	float:left;
+}
+.paginations{
+	width: 80%;
+	height: 40px;
+	float: left;
+	background-color:#ccc;
+	text-align: center;
+	border-radius: 0px;
+}
+.paginations-side{
+	width: 10%;
+	height: 40px;
+	background-color:#ccc;
+	float: left;
+}
+.paginations a {
+	color: #333;
+	background-color: transparent;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    vertical-align: middle;
+}
+.paginations a.active {
+    background-color: #333;
+	color: #ccc;
+	border-radius: 15px;
+}
+.paginations a:hover:not(.active) {
+	border-style: solid;
+	border-width: 3px;
+	font-weight: bolder;
+	border-color: #333;
+	color: #333;
+	border-radius: 15px;
+}
+.product-side{
+	width: 10%;
+	height: 300px;
+	float: left;
+	background-color:#ccc;
+	float: left;
+}
+.product-container{
+	width: 80%;
+	height: 300px;
+	float: left;
+	background-color:#ccc;
+	float: left;
+	align-items: center;
+}
+.product-image-holder{
+	width: 25%;
+	height: 250px;
+	float: left;
+	background-color:#ccc;
+	position: relative;
+}
+.product-image{
+	width: 220px;
+	height: 250px;
+	background-color:#ccc;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #333;
+	border-radius: 40px;
+	transition: border-radius .75s;
+	position: relative;
+}
+.product-image-holder:hover .product-image{
+	border-radius: 0px;
+}
+.product-image-holder:hover .product-label{
+	height: 50px;
+}
+.product-label:hover{
+	border-radius: 0px;
+}
+
+.product-label{
+	width: 175px;
+	height: 0px;
+  	left: 38px;
+  	right: 0px;
+	position: absolute;
+	overflow: hidden;
+	background-color:#333;
+	color:#ccc;
+	font-weight: 650;
+	border-radius: 0px 0px 25px 25px;
+	transition: .75s ease;
+}

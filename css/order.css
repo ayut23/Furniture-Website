@@ -1,0 +1,83 @@
+.title{
+	width:100%;
+	height:100px;
+	background-color:#ccc;
+}
+.orderside{
+	width:10%;
+	height:500px;
+	background-color:#ccc;
+	float:left;
+}
+.ordercontent{
+	width:25%;
+	height:500px;
+	background-color:#ccc;
+	float:left;
+}
+.ordercart{
+	width:20%;
+	height:500px;
+	background-color:#ccc;
+	float:left;
+}
+
+
+.orderspace{
+	width:5%;
+	height:500px;
+	background-color:#ccc;
+	float:left;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+span.price {
+  float: right;
+  color: grey;
+}
+.orderbtnside{
+	width:20%;	
+	height:80px;
+	background-color:#ccc;
+	float:left;
+}
+.orderbtncontent{
+	width:30%;
+	height:80px;
+	background-color:#ccc;
+	float:left;
+}
+.orderbtn, .cancelbtn {
+  background-color: #262626	;
+  border: none;
+  color: #ccc;
+  border-radius: 20px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.orderbtn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.cancelbtn:hover {
+  background-color: red;
+  color: white;
+}
